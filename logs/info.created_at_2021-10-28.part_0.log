@@ -1,0 +1,144 @@
+2021-10-28 08:28:15,236 [main] INFO  [com.example.restAPI10.RestApi10Application] StartupInfoLogger.java:55 - Starting RestApi10Application using Java 16.0.2 on L1276 with PID 146256 (/home/sanjana/Downloads/restAPI10/target/classes started by sanjana in /home/sanjana/Downloads/restAPI10)
+2021-10-28 08:28:15,239 [main] INFO  [com.example.restAPI10.RestApi10Application] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-10-28 08:28:16,012 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+2021-10-28 08:28:16,021 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-10-28 08:28:16,022 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2021-10-28 08:28:16,022 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 08:28:16,063 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2021-10-28 08:28:16,064 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:290 - Root WebApplicationContext: initialization completed in 781 ms
+2021-10-28 08:28:16,466 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-10-28 08:28:16,477 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-28 08:28:16,485 [main] INFO  [com.example.restAPI10.RestApi10Application] StartupInfoLogger.java:61 - Started RestApi10Application in 1.55 seconds (JVM running for 1.911)
+2021-10-28 08:28:53,956 [http-nio-8080-exec-2] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-28 08:28:53,956 [http-nio-8080-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-28 08:28:53,957 [http-nio-8080-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 0 ms
+2021-10-28 08:28:53,989 [http-nio-8080-exec-2] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+2021-10-28 08:28:53,994 [http-nio-8080-exec-2] WARN  [com.zaxxer.hikari.util.DriverDataSource] DriverDataSource.java:70 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-28 08:28:54,273 [http-nio-8080-exec-2] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+2021-10-28 08:28:54,305 [http-nio-8080-exec-2] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:32 - Fetching Users
+2021-10-28 08:29:40,236 [http-nio-8080-exec-3] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:96 - Fetching & Deleting User with id 2
+2021-10-28 08:30:02,807 [http-nio-8080-exec-5] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:96 - Fetching & Deleting User with id 3
+2021-10-28 08:30:02,824 [http-nio-8080-exec-5] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:99 - Deleted User with id 3 successfully
+2021-10-28 08:30:28,954 [http-nio-8080-exec-6] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:32 - Fetching Users
+2021-10-28 08:30:46,773 [http-nio-8080-exec-7] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:96 - Fetching & Deleting User with id 1
+2021-10-28 08:30:46,792 [http-nio-8080-exec-7] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:99 - Deleted User with id 1 successfully
+2021-10-28 08:30:49,384 [http-nio-8080-exec-8] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:96 - Fetching & Deleting User with id 4
+2021-10-28 08:30:49,394 [http-nio-8080-exec-8] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:99 - Deleted User with id 4 successfully
+2021-10-28 08:30:52,083 [http-nio-8080-exec-9] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:96 - Fetching & Deleting User with id 5
+2021-10-28 08:30:52,100 [http-nio-8080-exec-9] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:99 - Deleted User with id 5 successfully
+2021-10-28 08:30:53,584 [http-nio-8080-exec-10] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:96 - Fetching & Deleting User with id 6
+2021-10-28 08:30:53,604 [http-nio-8080-exec-10] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:99 - Deleted User with id 6 successfully
+2021-10-28 08:31:15,684 [SpringApplicationShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+2021-10-28 08:31:15,689 [SpringApplicationShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.
+2021-10-28 08:42:51,791 [main] INFO  [com.example.restAPI10.RestApi10Application] StartupInfoLogger.java:55 - Starting RestApi10Application using Java 16.0.2 on L1276 with PID 146967 (/home/sanjana/Downloads/restAPI10/target/classes started by sanjana in /home/sanjana/Downloads/restAPI10)
+2021-10-28 08:42:51,793 [main] INFO  [com.example.restAPI10.RestApi10Application] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-10-28 08:42:52,489 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+2021-10-28 08:42:52,495 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-10-28 08:42:52,496 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2021-10-28 08:42:52,496 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 08:42:52,531 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2021-10-28 08:42:52,532 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:290 - Root WebApplicationContext: initialization completed in 700 ms
+2021-10-28 08:42:52,874 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-10-28 08:42:52,881 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-28 08:42:52,887 [main] INFO  [com.example.restAPI10.RestApi10Application] StartupInfoLogger.java:61 - Started RestApi10Application in 1.379 seconds (JVM running for 1.73)
+2021-10-28 08:43:04,992 [http-nio-8080-exec-2] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-28 08:43:04,993 [http-nio-8080-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-28 08:43:04,995 [http-nio-8080-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 2 ms
+2021-10-28 08:43:05,028 [http-nio-8080-exec-2] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+2021-10-28 08:43:05,032 [http-nio-8080-exec-2] WARN  [com.zaxxer.hikari.util.DriverDataSource] DriverDataSource.java:70 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-28 08:43:05,314 [http-nio-8080-exec-2] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+2021-10-28 08:43:05,347 [http-nio-8080-exec-2] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:32 - Fetching Users
+2021-10-28 08:43:35,558 [http-nio-8080-exec-4] WARN  [o.s.w.s.m.support.DefaultHandlerExceptionResolver] AbstractHandlerExceptionResolver.java:208 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2021-10-28 08:44:07,223 [http-nio-8080-exec-5] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:66 - Creating a new user
+2021-10-28 08:44:26,432 [SpringApplicationShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+2021-10-28 08:44:26,436 [SpringApplicationShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.
+2021-10-28 09:01:34,408 [main] INFO  [com.example.restAPI10.RestApi10Application] StartupInfoLogger.java:55 - Starting RestApi10Application using Java 16.0.2 on L1276 with PID 147902 (/home/sanjana/Downloads/restAPI10/target/classes started by sanjana in /home/sanjana/Downloads/restAPI10)
+2021-10-28 09:01:34,412 [main] INFO  [com.example.restAPI10.RestApi10Application] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-10-28 09:01:35,309 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+2021-10-28 09:01:35,316 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-10-28 09:01:35,317 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2021-10-28 09:01:35,317 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 09:01:35,364 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2021-10-28 09:01:35,364 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:290 - Root WebApplicationContext: initialization completed in 907 ms
+2021-10-28 09:01:35,822 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-10-28 09:01:35,832 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-28 09:01:35,840 [main] INFO  [com.example.restAPI10.RestApi10Application] StartupInfoLogger.java:61 - Started RestApi10Application in 1.778 seconds (JVM running for 2.219)
+2021-10-28 09:01:37,856 [http-nio-8080-exec-2] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-28 09:01:37,857 [http-nio-8080-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-28 09:01:37,858 [http-nio-8080-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 1 ms
+2021-10-28 09:01:37,882 [http-nio-8080-exec-2] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+2021-10-28 09:01:37,886 [http-nio-8080-exec-2] WARN  [com.zaxxer.hikari.util.DriverDataSource] DriverDataSource.java:70 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-28 09:01:38,149 [http-nio-8080-exec-2] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+2021-10-28 09:01:38,182 [http-nio-8080-exec-2] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:32 - Fetching Users
+2021-10-28 09:02:28,498 [http-nio-8080-exec-3] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:46 - Searching users....
+2021-10-28 09:02:32,770 [http-nio-8080-exec-4] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:46 - Searching users....
+2021-10-28 09:02:54,823 [http-nio-8080-exec-6] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:46 - Searching users....
+2021-10-28 09:03:03,179 [SpringApplicationShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+2021-10-28 09:03:03,186 [SpringApplicationShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.
+2021-10-28 09:08:40,165 [main] INFO  [com.example.restAPI10.RestApi10Application] StartupInfoLogger.java:55 - Starting RestApi10Application using Java 16.0.2 on L1276 with PID 148379 (/home/sanjana/Downloads/restAPI10/target/classes started by sanjana in /home/sanjana/Downloads/restAPI10)
+2021-10-28 09:08:40,167 [main] INFO  [com.example.restAPI10.RestApi10Application] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-10-28 09:08:40,978 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+2021-10-28 09:08:40,988 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-10-28 09:08:40,988 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2021-10-28 09:08:40,989 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 09:08:41,049 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2021-10-28 09:08:41,050 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:290 - Root WebApplicationContext: initialization completed in 843 ms
+2021-10-28 09:08:41,599 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-10-28 09:08:41,607 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-28 09:08:41,616 [main] INFO  [com.example.restAPI10.RestApi10Application] StartupInfoLogger.java:61 - Started RestApi10Application in 1.747 seconds (JVM running for 2.111)
+2021-10-28 09:08:54,786 [http-nio-8080-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-28 09:08:54,787 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-28 09:08:54,788 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 1 ms
+2021-10-28 09:08:54,806 [http-nio-8080-exec-1] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:53 - Fetching User with id 1
+2021-10-28 09:08:54,817 [http-nio-8080-exec-1] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+2021-10-28 09:08:54,821 [http-nio-8080-exec-1] WARN  [com.zaxxer.hikari.util.DriverDataSource] DriverDataSource.java:70 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-28 09:08:55,076 [http-nio-8080-exec-1] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+2021-10-28 09:08:57,763 [http-nio-8080-exec-3] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:53 - Fetching User with id 12
+2021-10-28 09:09:10,114 [SpringApplicationShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+2021-10-28 09:09:10,120 [SpringApplicationShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.
+2021-10-28 10:40:48,663 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:31 - Fetching Users
+2021-10-28 10:57:33,634 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:42 - Searching users....
+2021-10-28 12:34:12,382 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:50 - Fetching User with id 2
+2021-10-28 12:51:23,700 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:71 - Updating Product with id 1
+2021-10-28 12:53:49,369 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:71 - Updating Product with id 1
+2021-10-28 12:57:01,325 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:71 - Updating Product with id 1
+2021-10-28 13:19:09,928 [main] INFO  [com.example.restAPI10.RestApi10Application] StartupInfoLogger.java:55 - Starting RestApi10Application using Java 16.0.2 on L1276 with PID 162733 (/home/sanjana/Downloads/restAPI10/target/classes started by sanjana in /home/sanjana/Downloads/restAPI10)
+2021-10-28 13:19:09,930 [main] INFO  [com.example.restAPI10.RestApi10Application] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-10-28 13:19:10,739 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+2021-10-28 13:19:10,750 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-10-28 13:19:10,750 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2021-10-28 13:19:10,751 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 13:19:10,797 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2021-10-28 13:19:10,797 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:290 - Root WebApplicationContext: initialization completed in 822 ms
+2021-10-28 13:19:11,230 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-10-28 13:19:11,239 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-28 13:19:11,246 [main] INFO  [com.example.restAPI10.RestApi10Application] StartupInfoLogger.java:61 - Started RestApi10Application in 1.641 seconds (JVM running for 2.008)
+2021-10-28 13:19:17,236 [http-nio-8080-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-28 13:19:17,236 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2021-10-28 13:19:17,237 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 0 ms
+2021-10-28 13:19:17,255 [http-nio-8080-exec-1] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:50 - Fetching User with id 12
+2021-10-28 13:19:17,267 [http-nio-8080-exec-1] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+2021-10-28 13:19:17,270 [http-nio-8080-exec-1] WARN  [com.zaxxer.hikari.util.DriverDataSource] DriverDataSource.java:70 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-28 13:19:17,568 [http-nio-8080-exec-1] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+2021-10-28 13:19:20,011 [http-nio-8080-exec-4] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:50 - Fetching User with id 1
+2021-10-28 13:19:26,470 [SpringApplicationShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+2021-10-28 13:19:26,474 [SpringApplicationShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.
+2021-10-28 13:22:57,926 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:50 - Fetching User with id 1
+2021-10-28 14:17:36,903 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:71 - Updating Product with id 1
+2021-10-28 14:20:07,253 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:71 - Updating Product with id 1
+2021-10-28 14:20:34,221 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:71 - Updating Product with id 1
+2021-10-28 14:22:03,370 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:71 - Updating Product with id 1
+2021-10-28 14:30:13,800 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:71 - Updating Product with id 1
+2021-10-28 14:31:06,430 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:71 - Updating Product with id 1
+2021-10-28 14:52:49,158 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:80 - Fetching & Deleting User with id 2
+2021-10-28 14:52:49,161 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:83 - Deleted User with id 2 successfully
+2021-10-28 14:53:20,734 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:80 - Fetching & Deleting User with id 2
+2021-10-28 14:53:20,737 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:83 - Deleted User with id 2 successfully
+2021-10-28 15:22:34,378 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:80 - Fetching & Deleting User with id 1
+2021-10-28 15:22:34,383 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:83 - Deleted User with id 1 successfully
+2021-10-28 15:24:19,925 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:80 - Fetching & Deleting User with id 1
+2021-10-28 15:24:19,928 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:83 - Deleted User with id 1 successfully
+2021-10-28 15:25:31,629 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:80 - Fetching & Deleting User with id 1
+2021-10-28 15:25:31,633 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:83 - Deleted User with id 1 successfully
+2021-10-28 15:31:45,507 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:80 - Fetching & Deleting User with id 1
+2021-10-28 15:31:45,513 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:83 - Deleted User with id 1 successfully
