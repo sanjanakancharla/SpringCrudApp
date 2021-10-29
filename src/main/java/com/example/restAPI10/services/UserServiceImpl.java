@@ -78,7 +78,7 @@ public class UserServiceImpl implements UserService{
         user.setCity(users.getCity());
         user.setCountry(users.getCountry());
 
-         return userMapper.updateUser(user);
+         return userMapper.updateUser(id, user);
     }
     public void deleteUserById(int id){
 

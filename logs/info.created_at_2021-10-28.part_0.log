@@ -142,3 +142,14 @@
 2021-10-28 15:25:31,633 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:83 - Deleted User with id 1 successfully
 2021-10-28 15:31:45,507 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:80 - Fetching & Deleting User with id 1
 2021-10-28 15:31:45,513 [main] INFO  [com.example.restAPI10.controllers.UserController] UserController.java:83 - Deleted User with id 1 successfully
+2021-10-28 15:49:18,528 [main] INFO  [com.example.restAPI10.RestApi10Application] StartupInfoLogger.java:55 - Starting RestApi10Application using Java 16.0.2 on L1276 with PID 170684 (/home/sanjana/Downloads/restAPI10/target/classes started by sanjana in /home/sanjana/Downloads/restAPI10)
+2021-10-28 15:49:18,531 [main] INFO  [com.example.restAPI10.RestApi10Application] SpringApplication.java:659 - No active profile set, falling back to default profiles: default
+2021-10-28 15:49:19,270 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+2021-10-28 15:49:19,277 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2021-10-28 15:49:19,278 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2021-10-28 15:49:19,278 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-28 15:49:19,316 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2021-10-28 15:49:19,316 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:290 - Root WebApplicationContext: initialization completed in 745 ms
+2021-10-28 15:49:19,791 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+2021-10-28 15:49:19,801 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-28 15:49:19,808 [main] INFO  [com.example.restAPI10.RestApi10Application] StartupInfoLogger.java:61 - Started RestApi10Application in 1.606 seconds (JVM running for 2.006)

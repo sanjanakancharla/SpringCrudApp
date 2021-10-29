@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-
 @Slf4j
 @RestController
 public class UserController {
@@ -26,50 +25,52 @@ public class UserController {
 
     // -------------------Retrieve All Users--------------------------------------------
     @GetMapping("/users")
-    public List<Users> getAll() {
+    public ResponseEntity<List<Users>> getAll() {
         log.info("Fetching Users");
-        return userService.findAll();
+        return new ResponseEntity<>(userService.findAll(), HttpStatus.OK);
     }
 
 
    //Search users with firstname, city and country
     @RequestMapping("/search")
-    public List<Users> search( @RequestParam(value="lastName", required = false) String lastName, @RequestParam(value="city", required = false) String city,
-                               @RequestParam(value="country",required = false) String country)
+    public ResponseEntity<List<Users>> search( @RequestParam(value="lastName", required = false) String lastName, @RequestParam(value="city", required = false) String city,
+              @RequestParam(value="country",required = false) String country)
 
     {
         log.info("Searching users....");
-        return userService.search(lastName, city, country);
+        return new ResponseEntity<>(userService.search(lastName, city, country),HttpStatus.OK);
     }
 
     // -------------------Retrieve Single User------------------------------------------
 
     @RequestMapping(value = "/user/{id}", method = RequestMethod.GET)
-    public Users getUser(@PathVariable("id") int id) {
+    public ResponseEntity<Users> getUser(@PathVariable("id") int id) {
         log.info("Fetching User with id {}", id);
-        return userService.findById(id);
+        return  new ResponseEntity<>(userService.findById(id), HttpStatus.OK);
 
     }
 
     // ------------------- Create a User ------------------------------------------------
 
     @RequestMapping(value = "/user", method = RequestMethod.POST)
-    public Users createUser(@RequestBody Users user) {
+    public ResponseEntity<?> createUser(@RequestBody Users user) {
 
         log.info("Creating a new user");
-
-        return userService.save(user);
+         userService.save(user);
+         return new ResponseEntity<>(HttpStatus.OK);
 
     }
 
     // ------------------- Update a User ------------------------------------------------
 
     @RequestMapping(value = "/user/{id}", method = RequestMethod.PUT)
-    public Users updateUser(@PathVariable("id") int id, @RequestBody Users user) {
+    public ResponseEntity<?> updateUser(@PathVariable("id") int id, @RequestBody Users user) {
 
         log.info("Updating Product with id {}", id);
 
-        return userService.updateUser(id,user);
+         userService.updateUser(id,user);
+        return new ResponseEntity<>(HttpStatus.OK);
+
     }
 
     // ------------------- Delete a User-----------------------------------------

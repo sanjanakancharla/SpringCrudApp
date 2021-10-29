@@ -13,7 +13,7 @@ public interface UserMapper {
     List<Users> findAll();
     List<Users> search (String lastName, String city, String country);
     Users findById (int id);
-    Users updateUser(Users user);
+    Users updateUser(int id, Users user);
     void deleteUserById(int id);
     Users save(Users user);
 

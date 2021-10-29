@@ -1,0 +1,6 @@
+2021-10-29 10:12:24,594 [main] ERROR [com.example.restAPI10.services.UserServiceImpl] UserServiceImpl.java:51 - No user with id 1 is present
+2021-10-29 10:13:05,458 [main] ERROR [com.example.restAPI10.services.UserServiceImpl] UserServiceImpl.java:51 - No user with id 1 is present
+2021-10-29 10:17:01,213 [main] ERROR [com.example.restAPI10.services.UserServiceImpl] UserServiceImpl.java:51 - No user with id 1 is present
+2021-10-29 10:17:41,527 [main] ERROR [com.example.restAPI10.services.UserServiceImpl] UserServiceImpl.java:51 - No user with id 4 is present
+2021-10-29 10:18:18,697 [main] ERROR [com.example.restAPI10.services.UserServiceImpl] UserServiceImpl.java:51 - No user with id 4 is present
+2021-10-29 10:19:06,633 [main] ERROR [com.example.restAPI10.services.UserServiceImpl] UserServiceImpl.java:51 - No user with id 1 is present
